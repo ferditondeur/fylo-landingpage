@@ -255,10 +255,12 @@ p {
 .early-access form {
   display: grid;
   grid-auto-flow: row;
+  max-width: 60%;
 }
 
 .early-access input {
   padding: 0.8rem 2rem;
+  
 }
 
 .early-access button {
@@ -442,5 +444,25 @@ button:hover, button:focus-within {
   
   .early-access button {
     min-width: 100%;
+  }
+
+  footer {
+    justify-content:space-around;
+    display:grid;
+    grid-auto-flow: row;
+  }
+
+  footer .menu {
+    margin-top: 1.5rem;
+    display: grid;
+    grid-auto-flow: row;
+  }
+
+  footer .menu > div {
+    margin-top: 2rem;
+  }
+
+  footer .menu > div:nth-child(1) {
+    margin-top: 0;
   }
 }
