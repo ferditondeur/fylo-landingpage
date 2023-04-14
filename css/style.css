@@ -196,6 +196,7 @@ p {
   background: white;
   margin-top: 2rem;
   padding: 3rem 2rem 2rem 2rem;
+  filter: drop-shadow(0 0 15px #00000020);
 }
 
 .testimonial > p {
@@ -328,6 +329,8 @@ form {
 input {
   font-size: 0.8rem;
   padding-left: 1rem;
+  box-shadow: 0 0 5px #00000020;
+  border: solid 1px rgb(58, 58, 58);
 }
 
 input::placeholder {
@@ -344,6 +347,7 @@ button {
   border-radius: 0.2rem;
   min-width: max-content;
   cursor: pointer;
+  filter: drop-shadow(0 0 5px #00000020);
 }
 
 .icon-link:hover, .icon-link:focus-within {
